@@ -24,47 +24,47 @@ const Services = () => {
           </h2>
           <div className="row">
             <div className="columns" data-aos="fade-up" data-aos-delay="200">
-              <i className="fas fa-drafting-compass"></i>
+              <i className="fas fa-laptop-code"></i>
               <h3>
                 <FormattedMessage
                   id="design"
-                  defaultMessage="ADesign UX/UIboult me"
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id="design-info"
-                  defaultMessage="Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website"
-                />
-              </p>
-            </div>
-            <div className="columns" data-aos="fade-up" data-aos-delay="300">
-              <i className="fas fa-laptop"></i>
-              <h3>
-                <FormattedMessage
-                  id="development"
                   defaultMessage="Web development"
                 />
               </h3>
               <p>
                 <FormattedMessage
+                  id="design-info"
+                  defaultMessage="End-to-end web development focused on responsive, fast, and scalable websites tailored to business goals."
+                />
+              </p>
+            </div>
+            <div className="columns" data-aos="fade-up" data-aos-delay="300">
+              <i className="fas fa-mobile-alt"></i>
+              <h3>
+                <FormattedMessage
+                  id="development"
+                  defaultMessage="App development"
+                />
+              </h3>
+              <p>
+                <FormattedMessage
                   id="development-info"
-                  defaultMessage="Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website."
+                  defaultMessage="Mobile app development with React Native using Expo, optimized for smooth performance on Android and iOS."
                 />
               </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
-              <i className="fas fa-chart-line"></i>
+              <i className="fas fa-rocket"></i>
               <h3>
                 <FormattedMessage
                   id="marketing"
-                  defaultMessage="Digital marketing"
+                  defaultMessage="Web performance optimization"
                 />
               </h3>
               <p>
                 <FormattedMessage
                   id="marketing-info"
-                  defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."
+                  defaultMessage="Optimization of loading speed, Core Web Vitals, and runtime performance for better user retention and SEO outcomes."
                 />
               </p>
             </div>
