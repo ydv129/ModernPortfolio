@@ -27,29 +27,25 @@ const FeaturedProjectsCarousel = () => (
         grabCursor
         centeredSlides
         autoplay={{
-          delay: 2500,
+          delay: 4500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+        pagination={{ clickable: true }}
         modules={[Pagination, Autoplay]}
         breakpoints={{
-          0: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          1024: {
-            slidesPerView: 3,
-          },
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
         }}
         className="proyectos-slider mySwiper"
       >
         {homeFeaturedProjects.map((project) => (
           <SwiperSlide className="caja" key={project.id}>
-            <img src={imagePath(project.image)} alt="proyectos" />
+            <img
+              src={imagePath(project.image)}
+              alt={project.title}
+              loading="lazy"
+            />
             <div className="content">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
